@@ -1,7 +1,6 @@
-flask
-flask-cors
-numpy
-joblib
-scikit-learn
-pyrenn
-gunicorn
+flask>=2.3.0
+flask-cors>=4.0.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+joblib>=1.1.0
+pyrenn>=0.1.0
