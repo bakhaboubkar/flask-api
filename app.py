@@ -78,7 +78,13 @@ def predict_model(R: float, V: float) -> dict:
 # ═══════════════════════════════════════════
 # ROUTES
 # ═══════════════════════════════════════════
-
+@app.route("/")
+def home():
+    return jsonify({
+        "message": "FC SCAN API is running",
+        "health": "/health",
+        "predict": "/predict"
+    })
 @app.route("/health", methods=["GET"])
 def health():
     return jsonify({
