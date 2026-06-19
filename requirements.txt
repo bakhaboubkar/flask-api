@@ -4,5 +4,7 @@ numpy>=1.21.0
 scikit-learn>=1.0.0
 joblib>=1.1.0
 pyrenn>=0.1.0
+openpyxl>=3.1.0
+reportlab>=4.0.0
 gunicorn
 pandas
